@@ -1,3 +1,8 @@
+img {
+    border-radius: 70%;
+  }
+
+
 body {
     margin: 0;
     background-color: white;
@@ -7,9 +12,10 @@ code {
     white-space: pre;
 }
 
-h1 {
+p {
     margin-top: 0px;
     padding-top: 20px;
+    font-size: 90px;
 }
 
 textarea {
