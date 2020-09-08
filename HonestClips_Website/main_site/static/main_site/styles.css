@@ -75,7 +75,15 @@ html, body {
     margin-bottom: 1rem;
 }
 
-.social a {
+.card-body a {
+    font-size: 2.5em;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.social a, .jumbotron a {
     font-size: 4.5em;
     padding: 3rem;
 }
@@ -84,7 +92,7 @@ html, body {
     color: #bb0000;
 }
 
-.fa-youtube:hover {
+.fa-youtube:hover, .fa-instagram:hover {
     color: #d5d5d5;
 }
 
