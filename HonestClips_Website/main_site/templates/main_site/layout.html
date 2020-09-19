@@ -14,7 +14,7 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
         
-            <a class="navbar-brand" href="#"><img src="{% static 'main_site/imgs/HonestClipsWide.png' %}" class="img-responsive rounded"></a>
+            <a class="navbar-brand" href="{% url 'main_site:index' %}"><img src="{% static 'main_site/imgs/HonestClipsWide.png' %}" class="img-responsive rounded"></a>
         
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{% url 'main_site:index' %}">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Photos</a>
+                    <a class="nav-link" href="{% url 'main_site:photos' %}">Photos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="{% url 'main_site:blog' %}">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/honestclips">YouTube Channel</a>

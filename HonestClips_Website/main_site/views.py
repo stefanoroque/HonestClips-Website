@@ -5,3 +5,9 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, "main_site/index.html")
+
+def blog(request):
+    return render(request, "main_site/blog.html")
+
+def photos(request):
+    return render(request, "main_site/photos.html")
