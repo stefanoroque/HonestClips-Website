@@ -1,0 +1,12 @@
+{% extends "main_site/layout.html" %}
+{% load static %}
+
+{% block title %}
+    {{ post_title }}
+{% endblock %}
+    
+{% block body %}
+<br>
+<div class="container">{{ post |safe}}</div>
+
+{% endblock %}

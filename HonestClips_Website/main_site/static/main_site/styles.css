@@ -195,7 +195,7 @@ color: #0085A1;
     
 .post-preview > a > .post-subtitle {
     font-weight: 200;
-    font-size: 22px;
+    font-size: 20px;
     margin: 0 0 10px;
 }
     
@@ -216,7 +216,7 @@ color: #0085A1;
         
     .post-preview > a > .post-subtitle {
         font-weight: 200;
-        font-size: 20px;
+        font-size: 18px;
         margin: 0 0 10px;
     }
         
@@ -238,7 +238,7 @@ color: #0085A1;
         
     .post-preview > a > .post-subtitle {
         font-weight: 200;
-        font-size: 16px;
+        font-size: 15px;
         margin: 0 0 10px;
     }
         
@@ -249,5 +249,10 @@ color: #0085A1;
         color: #868e96;
     }
 
+}
+
+/* Blog Posts */
+.blog_post {
+    
 }
 
