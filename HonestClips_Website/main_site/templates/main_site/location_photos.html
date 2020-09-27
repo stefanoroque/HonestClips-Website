@@ -1,0 +1,24 @@
+{% extends "main_site/layout.html" %}
+{% load static %}
+
+{% block title %}
+    Honest Clips Photos: {{ location }}
+{% endblock %}
+    
+{% block body %}
+<div class="container">
+
+    <h1 class="font-weight-light text-center mt-4 mb-0">{{location}}</h1>
+    <hr class="mt-2 mb-2">
+
+    {% for f_name in file_names %}
+            {% with 'main_site/imgs/'|add:location|add:'/'|add:f_name as image_static %}
+                <div class="col-md-10 mx-auto">
+                    <img src="{% static image_static %}" class="border" style="height: auto; width: 100%; display: block;">
+                </div>
+                <br>
+            {% endwith %}
+    {% endfor %}
+
+</div>
+{% endblock %}

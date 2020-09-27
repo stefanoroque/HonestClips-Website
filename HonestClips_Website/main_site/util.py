@@ -23,3 +23,13 @@ def get_post(title):
         return f.read().decode("utf-8")
     except FileNotFoundError:
         return None
+
+
+def get_photos(location_name):
+    """
+    Returns a list of the filenames of all the photos from a specific location.
+    """
+    _, filenames = default_storage.listdir("main_site/static/main_site/imgs/" + location_name)
+    return filenames
+    # return list(re.sub(r"\.jpeg$", "", filename)
+    #             for filename in filenames if filename.endswith(".jpeg"))
