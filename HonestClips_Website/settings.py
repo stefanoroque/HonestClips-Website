@@ -25,7 +25,7 @@ SECRET_KEY = 've#9yvb8g@18yl1$_wmx58xe99g(0^r!&(0(bmfki)c+aph+#a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'https://honestclips-website.herokuapp.com/']
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'honestclips-website.herokuapp.com/']
 
 
 # Application definition
