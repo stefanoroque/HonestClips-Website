@@ -30,6 +30,7 @@ def get_photos(location_name):
     Returns a list of the filenames of all the photos from a specific location.
     """
     _, filenames = default_storage.listdir("main_site/static/main_site/imgs/" + location_name)
+    filenames = [x for x in filenames if not x.startswith('.')]
     
     return sorted(filenames)
     
