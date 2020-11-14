@@ -1,4 +1,4 @@
 # HonestClips-Website
 Website for Honest Clips YouTube Channel
 
-##Backpacking through Europe 2020
+Created with Django and Bootstrap to help document the backpacking trip that I took after graduating from university!
